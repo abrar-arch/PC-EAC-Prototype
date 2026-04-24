@@ -37,9 +37,9 @@ export function ModalContainer({
         role="dialog"
         aria-modal="true"
         aria-labelledby="modal-title"
-        className="relative z-10 flex w-full max-w-[480px] flex-col overflow-hidden rounded-fig bg-sf-surface shadow-modal ring-1 ring-black/[0.06]"
+        className="relative z-10 flex w-full max-w-[560px] flex-col overflow-hidden rounded-[16px] bg-sf-surface shadow-modal ring-1 ring-black/[0.06]"
       >
-        <header className="flex items-center gap-3 border-b border-sf-header px-6 py-4">
+        <header className="flex items-center gap-3 border-b border-sf-header px-6 py-5">
           {showBack ? (
             <button type="button" onClick={onBack} className={headerBtn} aria-label="Go back">
               <svg width="20" height="20" viewBox="0 0 20 20" fill="none" aria-hidden>

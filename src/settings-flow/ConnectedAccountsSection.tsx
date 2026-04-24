@@ -17,7 +17,7 @@ export function ConnectedAccountsSection({ connection, onConnectPartner }: Conne
         aria-live="polite"
         aria-busy="true"
       >
-        <h3 className="text-fig-h2 text-sf-ink">Connected accounts</h3>
+        <h3 className="text-[24px] font-semibold text-sf-ink">Connected Accounts</h3>
         <div className="mt-6">
           <LoaderState
             message="Connection stabilizing…"
@@ -33,7 +33,7 @@ export function ConnectedAccountsSection({ connection, onConnectPartner }: Conne
     const providerLabel = provider === "google" ? "Google" : "Microsoft";
     return (
       <div className="rounded-2xl border border-sf-line bg-sf-surface p-8">
-        <h3 className="text-fig-h2 text-sf-ink">Connected accounts</h3>
+        <h3 className="text-[24px] font-semibold text-sf-ink">Connected Accounts</h3>
         <div className="mt-6 flex flex-col gap-4 rounded-fig border border-emerald-600/20 bg-emerald-50/60 p-5">
           <div className="flex items-start gap-3">
             <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-emerald-100 text-emerald-800">
@@ -48,7 +48,7 @@ export function ConnectedAccountsSection({ connection, onConnectPartner }: Conne
               </svg>
             </div>
             <div className="min-w-0">
-              <p className="text-fig-h2 text-sf-ink">Connection established</p>
+              <p className="text-[20px] font-semibold text-sf-ink">Connection Established</p>
               <p className="mt-1 text-fig-body text-sf-muted">
                 {providerLabel} partner account <span className="font-semibold text-sf-ink">{accountEmail}</span>{" "}
                 is linked.
@@ -65,10 +65,10 @@ export function ConnectedAccountsSection({ connection, onConnectPartner }: Conne
 
   return (
     <div className="rounded-2xl border border-sf-line bg-sf-surface p-8">
-      <h3 className="text-fig-h2 text-sf-ink">Connected accounts</h3>
+      <h3 className="text-[24px] font-semibold text-sf-ink">Connected Accounts</h3>
       <div className="mt-6 flex flex-col items-start gap-4 sm:flex-row sm:items-center sm:justify-between">
         <div className="min-w-0 flex-1">
-          <p className="text-fig-h2 text-sf-ink">No partner account connected</p>
+          <p className="text-[20px] font-semibold text-sf-ink">No Partner Account Connected</p>
           <p className="mt-2 max-w-2xl text-fig-body text-sf-muted">
             Connect your Microsoft or Google partner account to enable data sync, access shared resources, and
             manage partner workflows.
@@ -78,7 +78,7 @@ export function ConnectedAccountsSection({ connection, onConnectPartner }: Conne
           </button>
         </div>
         <button type="button" onClick={onConnectPartner} className={btnPrimaryDark}>
-          Connect partner account
+          Connect Partner Account
         </button>
       </div>
     </div>
