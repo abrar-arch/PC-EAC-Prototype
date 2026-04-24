@@ -1,0 +1,2 @@
+export const modalBtnPrimary =
+  "inline-flex h-8 min-w-[120px] cursor-pointer items-center justify-center rounded-fig-btn border border-sf-brand bg-sf-surface px-4 text-fig-ui font-normal text-sf-brand transition hover:bg-sf-brand-tint disabled:cursor-not-allowed disabled:border-sf-line disabled:bg-sf-surface disabled:text-sf-line focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-sf-brand";
