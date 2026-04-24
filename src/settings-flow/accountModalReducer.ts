@@ -1,4 +1,4 @@
-import type { AccountModalState, CalendarProviderId, ModalStepId } from "./types";
+import type { AccountModalState, CalendarProviderId } from "./types";
 import { initialAccountModalState } from "./types";
 
 export type AccountModalAction =
